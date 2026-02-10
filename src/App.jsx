@@ -4,7 +4,7 @@ import Header from "./components/header";
 import Postgre from "./pages/Postgre";
 import Form from "./pages/Form";
 import Data from "./pages/Data";
-import "./app.css";
+import "./App.css";
 
 function App() {
   const [count, setCount] = useState(0);
