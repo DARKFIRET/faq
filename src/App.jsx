@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/header";
 import Postgre from "./pages/Postgre";
 import Form from "./pages/Form";
@@ -10,14 +10,14 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Header />
       <Routes>
         <Route path="/" element={<Postgre />} />
         <Route path="/form" element={<Form />} />
         <Route path="/response" element={<Data />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
