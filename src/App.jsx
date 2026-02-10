@@ -14,8 +14,8 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Postgre />} />
-        <Route path="/form" element={<Form />} />
-        <Route path="/response" element={<Data />} />
+        <Route path="/#/form" element={<Form />} />
+        <Route path="/#/response" element={<Data />} />
       </Routes>
     </HashRouter>
   );
