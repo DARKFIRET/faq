@@ -10,14 +10,14 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <>
+    <BrowserRouter>
       <Header />
       <Routes>
         <Route path="/" element={<Postgre />} />
         <Route path="/form" element={<Form />} />
         <Route path="/response" element={<Data />} />
       </Routes>
-    </>
+    </BrowserRouter>
   );
 }
 
