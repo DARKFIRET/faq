@@ -18,10 +18,10 @@ function SimpleHeader() {
         <Button color="inherit" href="/">
           postgres
         </Button>
-        <Button color="inherit" href="/#/form">
+        <Button color="inherit" href="/form">
           Форма
         </Button>
-        <Button color="inherit" href="/#/response">
+        <Button color="inherit" href="/response">
           Ответы
         </Button>
       </Toolbar>
